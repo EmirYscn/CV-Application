@@ -10,6 +10,7 @@ function App() {
       <Info />
       <Education />
       <Experience />
+      <button type="submit">Submit</button>
     </div>
   );
 }
