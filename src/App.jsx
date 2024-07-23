@@ -1,16 +1,11 @@
-import Info from "./components/info";
-import Education from "./components/education";
-import Experience from "./components/experience";
+import Form from "./components/form";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="app">
-      <Info />
-      <Education />
-      <Experience />
-      <button type="submit">Submit</button>
+      <Form />
     </div>
   );
 }
